@@ -1,4 +1,4 @@
-# audio-reader
+# audio-converter
 Эта программа преобразует музыку в различные математические представления, такие как волновая форма (waveform), спектрограмма, мел-спектрограмма и MFCC (Mel Frequency Cepstral Coefficients)
 
 This program converts music into various mathematical representations such as waveform, spectrogram, chalk spectrogram and MFCC (Mel Frequency Cepstral Coefficients)
