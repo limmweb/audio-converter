@@ -1,6 +1,7 @@
 # audio-reader
 Эта программа преобразует музыку в различные математические представления, такие как волновая форма (waveform), спектрограмма, мел-спектрограмма и MFCC (Mel Frequency Cepstral Coefficients)
 
+This program converts music into various mathematical representations such as waveform, spectrogram, chalk spectrogram and MFCC (Mel Frequency Cepstral Coefficients)
 
 # Программа для создания математического представления музыки
 
@@ -51,13 +52,13 @@ This program is useful for researchers, musicians, sound engineers, and AI devel
     pip install librosa numpy matplotlib scipy
     ```
 
-2. Create two folders **queue** and **processed** in the same directory as the script. The **queue** folder is intended for adding files to be processed. If the **queue** folder does not exist, the program cannot start processing!
+2. ⚠ Create two folders **queue** and **processed** in the same directory as the script. The **queue** folder is intended for adding files to be processed. If the **queue** folder does not exist, the program cannot start processing! ⚠
 
 3. Place audio files in the **queue** folder.
 
 4. Run the script:
     ```bash
-    python script_name.py
+    python converter.py
     ```
 
 ## How the Program Works
